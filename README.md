@@ -1,4 +1,4 @@
-# IT00AL54-3006 – Internet of Things (IoT) Exercises
+# Internet of Things (IoT) Exercises
 
 This repository contains my solutions for the course:
 
