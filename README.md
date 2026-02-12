@@ -1,42 +1,81 @@
-# Internet of Things (IoT) Exercises
+# Centria IoT Arduino Exercises
 
-This repository contains my solutions for the course:
+Arduino and IoT implementations developed for the course:
 
-**IT00AL54-3006 Internet of Things**
-
-All exercises are organized according to the structure provided in the course materials.
-
----
-
-## Structure
-
-- `1_HelloWorld` – Basic serial communication and counter
-- `2_Diode` – LED blinking (0.5s ON, 2s OFF)
-- `3_DiodeFade` – PWM brightness control and fading
-- `4_Button` – Button input and toggle logic
-
-Each folder contains a `sketch.ino` file with the corresponding solution.
+**IT00AL54-3006 – Internet of Things**  
+Centria University of Applied Sciences
 
 ---
 
-## Simulation Environment
+## 📌 Overview
 
-All exercises were tested using:
+This repository contains structured Arduino and IoT programming exercises covering:
+
+- Digital and analog I/O
+- PWM and LED fading
+- Button control with debounce
+- Servo motor control
+- Interrupt handling
+- Non-blocking timing using `millis()`
+- Bitmask operations
+- Serial communication
+- MQTT communication basics
+- Sensor data logging with SQLite (Python integration)
+
+All exercises are implemented in Arduino C++ and organized according to the official course structure.
+
+---
+
+## 📂 Project Structure
+
+| Folder | Description |
+|--------|------------|
+| `1_HelloWorld` | Serial communication and counter logic |
+| `2_Diode` | LED blinking (non-blocking timing) |
+| `3_DiodeFade` | PWM brightness control |
+| `4_Button` | Button toggle with debounce |
+| `5_Analog` | Analog input mapping (potentiometer) |
+| `6_MoreTechniques` | Sensor calibration and bitmask logic |
+| `7_AirCooler` | Servo control with temperature logic and interrupt |
+| `8_TransmitData` | Arduino-to-Arduino data transmission |
+| `9_CommunicationBasics` | MQTT communication template |
+| `10_AddingDatabase` | Arduino sensor data stored in SQLite via Python |
+
+---
+
+## 🛠 Technologies Used
+
+- Arduino (C++)
+- Wokwi Online Simulator
+- Python (SQLite3)
+- GitHub (Version Control)
+
+---
+
+## 🎯 Technical Concepts Demonstrated
+
+- Non-blocking programming using `millis()`
+- Interrupt Service Routines (ISR)
+- PWM signal generation
+- Sensor data acquisition
+- Data transmission techniques
+- MQTT-based IoT communication
+- Database integration for sensor logging
+- Basic IoT system architecture
+
+---
+
+## 🧠 Simulation Environment
+
+All Arduino sketches were tested using:
 
 - Arduino Uno
 - Wokwi Online Simulator
 
-The code is written in standard Arduino C++.
-
 ---
 
-## Notes
+## 👨‍💻 Author
 
-- Where required, non-blocking techniques (e.g. `millis()`) are used.
-- Folder naming follows the original exercise numbering.
-- All solutions are included in this single repository as requested.
-
----
-
-Author:  
-Ismail Hossain
+Ismail Hossain  
+Bachelor of Engineering (Information Technology)  
+Centria University of Applied Sciences
